@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/38d211956dec596b53c9bf8fe001f5fd121497c4/express-validator/express-validator.d.ts",
+    "raw": "registry:dt/express-validator#2.9.0+20160412125233",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/38d211956dec596b53c9bf8fe001f5fd121497c4/express-validator/express-validator.d.ts"
+  }
+}

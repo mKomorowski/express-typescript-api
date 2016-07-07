@@ -12,6 +12,12 @@ express-typescript-api
 
 
 ## Installation
+Install npm dependency
 ```javascript
-npm install && npm run build
+npm install
+```
+
+Compile JavaScript
+```javascript
+npm run build
 ```
