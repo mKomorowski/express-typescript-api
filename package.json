@@ -8,7 +8,8 @@
     "url": "https://github.com/mKomorowski/node-express-typings"
   },
   "scripts": {
-    "build": "./node_modules/typescript/bin/tsc"
+    "build": "./node_modules/typescript/bin/tsc",
+    "start": "node app/app.js"
   },
   "author": "",
   "license": "ISC",
