@@ -1,0 +1,32 @@
+{
+  "name": "node-express-typings",
+  "version": "1.0.0",
+  "description": "Typescript nodejs express minimal server setup with typings included",
+  "homepage": "https://github.com/mKomorowski/node-express-typings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mKomorowski/node-express-typings"
+  },
+  "scripts": {
+    "build": "./node_modules/typescript/bin/tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "express-validator": "^2.20.8",
+    "jsonwebtoken": "^7.0.1",
+    "lodash": "^4.13.1",
+    "serve-favicon": "^2.3.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.1"
+  }
+}

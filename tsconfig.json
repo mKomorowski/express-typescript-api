@@ -1,0 +1,15 @@
+{
+  "version" : "1.6.2",
+  "compilerOptions": {
+    "target" : "es5",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "outDir": "app",
+    "sourceMap": false
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
