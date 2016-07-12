@@ -44,11 +44,6 @@ app.use(requestHandler.call(null, config, log));
 app.use(errorHandler.call(null, log));
 app.use(responseHandler.call(null, log));
 
-app.listen(config.get('port'), (err) => {
-	if(err) {
-			throw err;
-	}
+app.set('port', config.get('port'));
 
-	log.debug(`Express server listening on port ${config.get('port')}`);
-});
-
+export default app;
